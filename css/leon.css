@@ -249,6 +249,11 @@ body{
   height: 75%;
   border-radius: 0 40px 40px 0;
 }
+@media (max-width: 767px) {
+    .serv_img{
+        display: none;
+    }
+}
 .col-img:before {
   content: "";
   background-color: var(--second_color);
